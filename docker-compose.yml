@@ -1,0 +1,9 @@
+
+
+services:
+  eureka-server:
+    container_name: eureka-server-container
+    image: my-microservice-app
+    build: .
+    ports:
+      - "8761:8761"
