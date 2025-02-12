@@ -1,4 +1,4 @@
-package com.ecom.euroka_server;
+package com.ecom.eureka_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,11 +6,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class EurokaServerApplication {
+public class EurekaServerApplication {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurokaServerApplication.class, args);
+		SpringApplication.run(EurekaServerApplication.class, args);
 	}
 
 }
